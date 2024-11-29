@@ -184,11 +184,11 @@
 			<version>3.5.13</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
-	<!-- <dependency> -->
-	<!-- <groupId>org.mybatis</groupId> -->
-	<!-- <artifactId>mybatis-spring</artifactId> -->
-	<!-- <version>1.3.2</version> -->
-	<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.mybatis</groupId> -->
+		<!-- <artifactId>mybatis-spring</artifactId> -->
+		<!-- <version>1.3.2</version> -->
+		<!-- </dependency> -->
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
@@ -222,18 +222,27 @@
 			<version>1.16</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.18.2</version>
+		</dependency>
+
 
 		<!-- Test -->
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 		<!-- <dependency> -->
-		<!-- <groupId>junit</groupId> -->
-		<!-- <artifactId>junit</artifactId> -->
-		<!-- <version>4.7</version> -->
+		<!-- <groupId>org.junit.jupiter</groupId> -->
+		<!-- <artifactId>junit-jupiter-api</artifactId> -->
+		<!-- <version>5.11.3</version> -->
 		<!-- <scope>test</scope> -->
 		<!-- </dependency> -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.13.2</version> <!-- 최신 JUnit 4 버전 -->
+			<version>4.13.2</version>
+			<!-- <version>4.7</version> -->
 			<scope>test</scope>
 		</dependency>
 
