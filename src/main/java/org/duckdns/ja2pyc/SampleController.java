@@ -160,6 +160,6 @@ public class SampleController {
 			System.out.println(file.getSize());
 		}
 		
-		return "/ex/exUpload";
+		return "/ex/exUpload";	
 	}
 }
