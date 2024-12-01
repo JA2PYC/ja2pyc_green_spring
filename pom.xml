@@ -229,7 +229,6 @@
 			<version>2.18.2</version>
 		</dependency>
 
-
 		<!-- Test -->
 		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
 		<!-- <dependency> -->
